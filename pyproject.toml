@@ -1,0 +1,9 @@
+[project]
+name = "vendor-recommender"
+version = "0.1.0"
+description = "Vendor selection / procurement recommender with adjustable weighted scoring"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
